@@ -20,6 +20,7 @@ function initMap(lat, lng) {
 }
 
 // Watch your own location
+
 if (navigator.geolocation) {
   navigator.geolocation.watchPosition(
     (position) => {
